@@ -83,7 +83,7 @@ header .menu a:hover {
     color: #f0a500;
 }
 
-.presentation {
+.presentation{
     transform: translateY(20px); /* Centre verticalement */
     text-align: center;
     color: white;
