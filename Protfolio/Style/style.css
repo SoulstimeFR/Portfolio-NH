@@ -83,12 +83,26 @@ header .menu a:hover {
     color: #f0a500;
 }
 
-/* CONTENU PRINCIPAL */
-.content {
+.presentation {
     position: relative;
     top: 50%;
     transform: translateY(-50%); /* Centre verticalement */
     text-align: center;
     color: white;
     z-index: 1; /* Au-dessus de la vidéo */
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#photo {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+main {
+    padding-top: 80px;
+    padding-left: 20px;
 }
